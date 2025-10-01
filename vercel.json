@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "angular.json",
-      "use": "@vercel/angular"
-    }
-  ],
-  "framework": "angular",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/browser"
+  "outputDirectory": "dist/browser",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
