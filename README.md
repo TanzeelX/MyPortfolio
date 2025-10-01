@@ -33,8 +33,8 @@
 ![image alt](https://github.com/TanzeelX/MyPortfolio/blob/51c85044fe225b61853abaad85d36c65a72779aa/screenshots/7.png)
 ![image alt](https://github.com/TanzeelX/MyPortfolio/blob/51c85044fe225b61853abaad85d36c65a72779aa/screenshots/8.png)
 ![image alt](https://github.com/TanzeelX/MyPortfolio/blob/51c85044fe225b61853abaad85d36c65a72779aa/screenshots/9.png)
-![image alt](https://github.com/TanzeelX/MyPortfolio/blob/058fa60ac8f47d5c1c40eda250586ed261dee97a/screenshots/10.png)
-![image alt](https://github.com/TanzeelX/MyPortfolio/blob/058fa60ac8f47d5c1c40eda250586ed261dee97a/screenshots/21.png)
+![image alt](https://github.com/TanzeelX/MyPortfolio/blob/51c85044fe225b61853abaad85d36c65a72779aa/screenshots/10.png)
+![image alt](https://github.com/TanzeelX/MyPortfolio/blob/51c85044fe225b61853abaad85d36c65a72779aa/screenshots/21.png)
 
 
 ## Light Mode ☀️
