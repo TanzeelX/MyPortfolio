@@ -1,7 +1,3 @@
 {
-  "buildCommand": "ng build --configuration production",
-  "outputDirectory": "dist/browser",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
