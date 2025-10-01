@@ -57,7 +57,7 @@
 
 Check out the live version of my portfolio:
 🔗 Visit Here
- ([replace with live URL](https://tanzeel-dev.vercel.app/))
+ ([TanzeelPortfolio](https://tanzeel-dev.vercel.app/))
 
 ### Getting Started 🖥
 
