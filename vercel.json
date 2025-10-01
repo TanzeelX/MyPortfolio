@@ -2,6 +2,6 @@
   "buildCommand": "ng build --configuration production",
   "outputDirectory": "dist/browser",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
