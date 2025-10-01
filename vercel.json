@@ -2,12 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "PortfolioApp/dist/browser" }
+      "src": "angular.json",
+      "use": "@vercel/angular"
     }
   ],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "framework": "angular",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/browser"
 }
