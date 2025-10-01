@@ -1,0 +1,97 @@
+.theme-btn {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.navbar .container-fluid .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+
+.sayHello {
+  border: 2px solid var(--accent-color);
+  border-radius: 9999px;
+  padding: 9px 20px;
+  background-color: var(--bg-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sayHello:hover {
+  background-color: var(--accent-color);
+  color: white !important;
+}
+
+
+@media (max-width: 575.98px) {
+
+  .navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .container-fluid {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+}
+
+
+@media (min-width: 991.98px) and (max-width: 1200px) {
+
+  .container-fluid {
+    margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+  .container-fluid {
+    margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+}

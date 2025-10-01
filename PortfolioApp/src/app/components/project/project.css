@@ -1,0 +1,230 @@
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navbar .container-fluid .d-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+.X {
+    border: none;
+    font-family: "Jura", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.X:hover {
+    cursor: pointer;
+}
+
+
+
+.hr {
+    border: 0.5px solid var(--overlay-shadow);
+    margin-bottom: 20px;
+}
+
+.little {
+    margin: -70px auto 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-text {
+    font-family: "Jura", sans-serif;
+    font-size: 35px;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 100px auto;
+}
+
+.label {
+    font-family: "europa", sans-serif;
+    font-size: 18px;
+    color: var(--text-color);
+    margin-top: 10px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0.5px solid var(--overlay-shadow);
+    border-radius: 4px;
+    background-color: var(--bg-color);
+    font-size: 16px;
+    resize: vertical;
+    outline: none;
+    color: var(--text-color);
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.submit {
+    border: 2px solid var(--accent-color);
+    border-radius: 9999px;
+    padding: 12px 20px;
+    background-color: var(--bg-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 200px;
+    margin: 50px auto 0 auto;
+}
+
+.submit:hover {
+    background-color: var(--accent-color);
+    color: white !important;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .navbar .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+
+    .contact-text {
+        font-family: "Jura", sans-serif;
+        font-size: 22px;
+        color: var(--text-color);
+        text-align: center;
+        margin-top: 100px;
+        font-weight: 600;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .form {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 100px auto;
+}
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .contact-text {
+        font-family: "Jura", sans-serif;
+        font-size: 25px;
+        color: var(--text-color);
+        text-align: center;
+        margin-top: 100px;
+        font-weight: 600;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 100px auto;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 899.98px) {
+
+    .container-fluid {
+        margin-top: 20px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+
+    .contact-text {
+        font-family: "Jura", sans-serif;
+        font-size: 30px;
+        color: var(--text-color);
+        text-align: center;
+        margin-top: 100px;
+        font-weight: 600;
+    }
+
+    .form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 100px auto;
+}
+
+}
+
+
+@media (min-width: 900.98px) and (max-width: 1200px) {
+
+    .container-fluid {
+        margin-top: 20px;
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    .container-fluid {
+        margin-top: 20px;
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+
+    .contact-text {
+        font-family: "Jura", sans-serif;
+        font-size: 35px;
+        color: var(--text-color);
+        text-align: center;
+        margin-top: 100px;
+        font-weight: 600;
+    }
+    
+    
+    
+}

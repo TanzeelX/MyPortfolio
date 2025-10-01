@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #1A1A1A;
+  --text-color: #cfcbc5;
+  --accent-color: #6E07F3;
+  --shadow-color: #181717;
+  --scroll-color: #1d1d44;
+  --scroll-border: #27275e;
+  --overlay-shadow: #4e0da3;
+  --divider-color: #27275e;
+  --page-bg: #0f1720;
+  --accent: #5BE9B9;
+  --muted: #575757;
+  --muted1: #8d8d8d;
+  --shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
+  --background: linear-gradient(180deg, rgba(91, 233, 185, 0.12), rgba(91, 233, 185, 0.06));
+  --icon-color: #5BE9B9;
+  --color: white;
+}
+
+
+.light-theme {
+  --bg-color: white;
+  --text-color: #141c3a;
+  --accent-color: #6E07F3;
+  --shadow-color: #dbdbdb;
+  --scroll-color: #181838;
+  --scroll-border: #18183818;
+  --overlay-shadow: #ececec;
+  --divider-color: #182d57;
+  --background: #5BE9B9;
+  --muted: #d4caca;
+  --muted1: #ddd8d8;
+  --icon-color:white;
+  --color: black;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button,
+a {
+  color: var(--accent-color) !important;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border: 1px solid var(--scroll-border);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-color);
+  border-radius: 0px;
+  transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+

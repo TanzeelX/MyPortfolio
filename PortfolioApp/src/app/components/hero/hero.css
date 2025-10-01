@@ -1,0 +1,113 @@
+.banner-area {
+    margin: 80px;
+}
+
+.main-heading {
+    color: var(--text-color);
+    text-align: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.main-text {
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+.hero-devices {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 850px;
+}
+
+/* =======================
+   Extra small (xs) <576px
+   ======================= */
+@media (max-width: 575.98px) {
+
+    /* Your styles for mobile xs */
+    .banner-area {
+        margin: 50px;
+        margin-top: 130px;
+    }
+
+    .main-heading {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .main-text {
+        text-align: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 200;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .avatar {
+        height: 160px;
+        width: 160px;
+    }
+
+    .hero-devices {
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        max-width: 100%;   /* ✅ never exceed parent width */
+        height: auto;      /* ✅ keeps aspect ratio */
+        display: block;    /* avoids inline extra spacing */
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .hero-devices {
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        width: 500px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .hero-devices {
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        width: 700px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .hero-devices {
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        width: 500px;
+    }
+
+}

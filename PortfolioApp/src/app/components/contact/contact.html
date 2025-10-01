@@ -1,0 +1,34 @@
+<nav class="navbar">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a href="">
+            <img class="navbar-brand" src="assets/images/logo.png" height="60" width="50" alt="logo">
+        </a>
+
+        <!-- Flex container for buttons -->
+        <div class="d-flex align-items-center gap-3">
+            <a routerLink="/" class="X"><b>╳</b></a>
+        </div>
+    </div>
+</nav>
+
+<hr class="hr">
+<img class="little" src="assets\images\mf-avatar-little.svg" height="90" width="90" alt="Contact">
+
+<p class="contact-text">Thanks for taking the time to reach out.<br>How can I help you today?</p>
+
+<form action="https://formspree.io/f/mbljlkbv" class="form" method="POST">
+    <div style="display: flex; gap: 20px;">
+        <div style="flex: 1;">
+            <label class="label" for="name">Name</label>
+            <input type="text" name="name" class="form-control" style="width: 100%;" required>
+        </div>
+        <div style="flex: 1;">
+            <label class="label" for="email">Email</label>
+            <input type="text" name="email" class="form-control" style="width: 100%;" required>
+        </div>
+    </div>
+
+    <label for="message">Message</label>
+    <textarea name="message" class="form-control" style="height: 200px;" required></textarea>
+    <button type="submit" class="submit"><b>Send Message</b></button>
+</form>
